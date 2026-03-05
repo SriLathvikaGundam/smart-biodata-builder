@@ -1,16 +1,109 @@
-# React + Vite
+#  ShaadiBio – Marriage Biodata Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShaadiBio is a responsive web application that allows users to create professional marriage biodata easily.
+Users can enter personal, family, education, and horoscope details, preview the biodata in different templates, and download it as a PDF.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## React Compiler
+* User Login & Registration UI
+* Personal Details Form
+* Age Auto Calculation from Date of Birth
+* Family Details Section
+* Education & Profession Section
+* Optional Horoscope Section
+* Profile Photo Upload with Preview
+* Dynamic Biodata Preview
+* Multiple Biodata Templates
+* Download Biodata as PDF
+* Responsive Design (Mobile + Desktop)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend:
+
+* React JS
+* HTML
+* CSS
+* JavaScript
+
+Libraries:
+
+* html2pdf.js
+* React Router DOM
+
+---
+
+##  Project Structure
+
+```
+src
+ ├ components
+ │   ├ BioForm.jsx
+ │   ├ BioPreview.jsx
+ ├ pages
+ │   ├ Login.jsx
+ │   ├ Register.jsx
+ ├ templates
+ │   ├ TemplateOne.jsx
+ │   ├ TemplateTwo.jsx
+ ├ App.jsx
+ ├ main.jsx
+```
+
+---
+
+##  How to Run the Project
+
+1. Clone the repository
+
+```
+git clone <your-repo-link>
+```
+
+2. Install dependencies
+
+```
+npm install
+```
+
+3. Start development server
+
+```
+npm run dev
+```
+
+4. Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+##  Application Flow
+
+1. User logs in or registers
+2. User fills biodata form
+3. Biodata preview updates dynamically
+4. User selects preferred template
+5. User downloads biodata as PDF
+
+---
+
+##  Future Improvements
+
+* Backend authentication
+* Save & edit biodata
+* More biodata templates
+* Template customization
+* Privacy controls
+
+---
+
+##  Developed By
+
+Sri Lathvika Gundam
