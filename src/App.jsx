@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
-import BioForm from "./components/BioForm";
-import BioPreview from "./components/BioPreview";
+import BioForm from "./Components/BioForm";
+import BioPreview from "./Components/BioPreview";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
